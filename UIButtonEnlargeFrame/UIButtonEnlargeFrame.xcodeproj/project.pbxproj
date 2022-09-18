@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		957BADDF28D71B4200D8CBFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 957BADDE28D71B4200D8CBFF /* AppDelegate.m */; };
+		957BADE228D71B4200D8CBFF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 957BADE128D71B4200D8CBFF /* SceneDelegate.m */; };
+		957BADE528D71B4200D8CBFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957BADE428D71B4200D8CBFF /* ViewController.m */; };
+		957BADE828D71B4200D8CBFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957BADE628D71B4200D8CBFF /* Main.storyboard */; };
+		957BADEA28D71B4400D8CBFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957BADE928D71B4400D8CBFF /* Assets.xcassets */; };
+		957BADED28D71B4400D8CBFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957BADEB28D71B4400D8CBFF /* LaunchScreen.storyboard */; };
+		957BADF028D71B4400D8CBFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 957BADEF28D71B4400D8CBFF /* main.m */; };
+		957BADFA28D71B4400D8CBFF /* UIButtonEnlargeFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 957BADF928D71B4400D8CBFF /* UIButtonEnlargeFrameTests.m */; };
+		957BAE0428D71B4400D8CBFF /* UIButtonEnlargeFrameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 957BAE0328D71B4400D8CBFF /* UIButtonEnlargeFrameUITests.m */; };
+		957BAE0628D71B4400D8CBFF /* UIButtonEnlargeFrameUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 957BAE0528D71B4400D8CBFF /* UIButtonEnlargeFrameUITestsLaunchTests.m */; };
+		957BAE1428D71BB200D8CBFF /* UIButton+EnlargeClickZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 957BAE1328D71BB200D8CBFF /* UIButton+EnlargeClickZone.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		957BADF628D71B4400D8CBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 957BADD228D71B4100D8CBFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 957BADD928D71B4200D8CBFF;
+			remoteInfo = UIButtonEnlargeFrame;
+		};
+		957BAE0028D71B4400D8CBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 957BADD228D71B4100D8CBFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 957BADD928D71B4200D8CBFF;
+			remoteInfo = UIButtonEnlargeFrame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		957BADDA28D71B4200D8CBFF /* UIButtonEnlargeFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIButtonEnlargeFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		957BADDD28D71B4200D8CBFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		957BADDE28D71B4200D8CBFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		957BADE028D71B4200D8CBFF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		957BADE128D71B4200D8CBFF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		957BADE328D71B4200D8CBFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		957BADE428D71B4200D8CBFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		957BADE728D71B4200D8CBFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		957BADE928D71B4400D8CBFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		957BADEC28D71B4400D8CBFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		957BADEE28D71B4400D8CBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		957BADEF28D71B4400D8CBFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		957BADF528D71B4400D8CBFF /* UIButtonEnlargeFrameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIButtonEnlargeFrameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		957BADF928D71B4400D8CBFF /* UIButtonEnlargeFrameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIButtonEnlargeFrameTests.m; sourceTree = "<group>"; };
+		957BADFF28D71B4400D8CBFF /* UIButtonEnlargeFrameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIButtonEnlargeFrameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		957BAE0328D71B4400D8CBFF /* UIButtonEnlargeFrameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIButtonEnlargeFrameUITests.m; sourceTree = "<group>"; };
+		957BAE0528D71B4400D8CBFF /* UIButtonEnlargeFrameUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIButtonEnlargeFrameUITestsLaunchTests.m; sourceTree = "<group>"; };
+		957BAE1228D71BB200D8CBFF /* UIButton+EnlargeClickZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnlargeClickZone.h"; sourceTree = "<group>"; };
+		957BAE1328D71BB200D8CBFF /* UIButton+EnlargeClickZone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EnlargeClickZone.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		957BADD728D71B4200D8CBFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957BADF228D71B4400D8CBFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957BADFC28D71B4400D8CBFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		957BADD128D71B4100D8CBFF = {
+			isa = PBXGroup;
+			children = (
+				957BADDC28D71B4200D8CBFF /* UIButtonEnlargeFrame */,
+				957BADF828D71B4400D8CBFF /* UIButtonEnlargeFrameTests */,
+				957BAE0228D71B4400D8CBFF /* UIButtonEnlargeFrameUITests */,
+				957BADDB28D71B4200D8CBFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		957BADDB28D71B4200D8CBFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				957BADDA28D71B4200D8CBFF /* UIButtonEnlargeFrame.app */,
+				957BADF528D71B4400D8CBFF /* UIButtonEnlargeFrameTests.xctest */,
+				957BADFF28D71B4400D8CBFF /* UIButtonEnlargeFrameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		957BADDC28D71B4200D8CBFF /* UIButtonEnlargeFrame */ = {
+			isa = PBXGroup;
+			children = (
+				957BADDD28D71B4200D8CBFF /* AppDelegate.h */,
+				957BADDE28D71B4200D8CBFF /* AppDelegate.m */,
+				957BADE028D71B4200D8CBFF /* SceneDelegate.h */,
+				957BADE128D71B4200D8CBFF /* SceneDelegate.m */,
+				957BADE328D71B4200D8CBFF /* ViewController.h */,
+				957BADE428D71B4200D8CBFF /* ViewController.m */,
+				957BADE628D71B4200D8CBFF /* Main.storyboard */,
+				957BADE928D71B4400D8CBFF /* Assets.xcassets */,
+				957BADEB28D71B4400D8CBFF /* LaunchScreen.storyboard */,
+				957BADEE28D71B4400D8CBFF /* Info.plist */,
+				957BADEF28D71B4400D8CBFF /* main.m */,
+				957BAE1228D71BB200D8CBFF /* UIButton+EnlargeClickZone.h */,
+				957BAE1328D71BB200D8CBFF /* UIButton+EnlargeClickZone.m */,
+			);
+			path = UIButtonEnlargeFrame;
+			sourceTree = "<group>";
+		};
+		957BADF828D71B4400D8CBFF /* UIButtonEnlargeFrameTests */ = {
+			isa = PBXGroup;
+			children = (
+				957BADF928D71B4400D8CBFF /* UIButtonEnlargeFrameTests.m */,
+			);
+			path = UIButtonEnlargeFrameTests;
+			sourceTree = "<group>";
+		};
+		957BAE0228D71B4400D8CBFF /* UIButtonEnlargeFrameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				957BAE0328D71B4400D8CBFF /* UIButtonEnlargeFrameUITests.m */,
+				957BAE0528D71B4400D8CBFF /* UIButtonEnlargeFrameUITestsLaunchTests.m */,
+			);
+			path = UIButtonEnlargeFrameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		957BADD928D71B4200D8CBFF /* UIButtonEnlargeFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 957BAE0928D71B4400D8CBFF /* Build configuration list for PBXNativeTarget "UIButtonEnlargeFrame" */;
+			buildPhases = (
+				957BADD628D71B4200D8CBFF /* Sources */,
+				957BADD728D71B4200D8CBFF /* Frameworks */,
+				957BADD828D71B4200D8CBFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIButtonEnlargeFrame;
+			productName = UIButtonEnlargeFrame;
+			productReference = 957BADDA28D71B4200D8CBFF /* UIButtonEnlargeFrame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		957BADF428D71B4400D8CBFF /* UIButtonEnlargeFrameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 957BAE0C28D71B4400D8CBFF /* Build configuration list for PBXNativeTarget "UIButtonEnlargeFrameTests" */;
+			buildPhases = (
+				957BADF128D71B4400D8CBFF /* Sources */,
+				957BADF228D71B4400D8CBFF /* Frameworks */,
+				957BADF328D71B4400D8CBFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				957BADF728D71B4400D8CBFF /* PBXTargetDependency */,
+			);
+			name = UIButtonEnlargeFrameTests;
+			productName = UIButtonEnlargeFrameTests;
+			productReference = 957BADF528D71B4400D8CBFF /* UIButtonEnlargeFrameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		957BADFE28D71B4400D8CBFF /* UIButtonEnlargeFrameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 957BAE0F28D71B4400D8CBFF /* Build configuration list for PBXNativeTarget "UIButtonEnlargeFrameUITests" */;
+			buildPhases = (
+				957BADFB28D71B4400D8CBFF /* Sources */,
+				957BADFC28D71B4400D8CBFF /* Frameworks */,
+				957BADFD28D71B4400D8CBFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				957BAE0128D71B4400D8CBFF /* PBXTargetDependency */,
+			);
+			name = UIButtonEnlargeFrameUITests;
+			productName = UIButtonEnlargeFrameUITests;
+			productReference = 957BADFF28D71B4400D8CBFF /* UIButtonEnlargeFrameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		957BADD228D71B4100D8CBFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					957BADD928D71B4200D8CBFF = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					957BADF428D71B4400D8CBFF = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 957BADD928D71B4200D8CBFF;
+					};
+					957BADFE28D71B4400D8CBFF = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 957BADD928D71B4200D8CBFF;
+					};
+				};
+			};
+			buildConfigurationList = 957BADD528D71B4100D8CBFF /* Build configuration list for PBXProject "UIButtonEnlargeFrame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 957BADD128D71B4100D8CBFF;
+			productRefGroup = 957BADDB28D71B4200D8CBFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				957BADD928D71B4200D8CBFF /* UIButtonEnlargeFrame */,
+				957BADF428D71B4400D8CBFF /* UIButtonEnlargeFrameTests */,
+				957BADFE28D71B4400D8CBFF /* UIButtonEnlargeFrameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		957BADD828D71B4200D8CBFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957BADED28D71B4400D8CBFF /* LaunchScreen.storyboard in Resources */,
+				957BADEA28D71B4400D8CBFF /* Assets.xcassets in Resources */,
+				957BADE828D71B4200D8CBFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957BADF328D71B4400D8CBFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957BADFD28D71B4400D8CBFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		957BADD628D71B4200D8CBFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957BADE528D71B4200D8CBFF /* ViewController.m in Sources */,
+				957BAE1428D71BB200D8CBFF /* UIButton+EnlargeClickZone.m in Sources */,
+				957BADDF28D71B4200D8CBFF /* AppDelegate.m in Sources */,
+				957BADF028D71B4400D8CBFF /* main.m in Sources */,
+				957BADE228D71B4200D8CBFF /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957BADF128D71B4400D8CBFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957BADFA28D71B4400D8CBFF /* UIButtonEnlargeFrameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957BADFB28D71B4400D8CBFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957BAE0428D71B4400D8CBFF /* UIButtonEnlargeFrameUITests.m in Sources */,
+				957BAE0628D71B4400D8CBFF /* UIButtonEnlargeFrameUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		957BADF728D71B4400D8CBFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 957BADD928D71B4200D8CBFF /* UIButtonEnlargeFrame */;
+			targetProxy = 957BADF628D71B4400D8CBFF /* PBXContainerItemProxy */;
+		};
+		957BAE0128D71B4400D8CBFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 957BADD928D71B4200D8CBFF /* UIButtonEnlargeFrame */;
+			targetProxy = 957BAE0028D71B4400D8CBFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		957BADE628D71B4200D8CBFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				957BADE728D71B4200D8CBFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		957BADEB28D71B4400D8CBFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				957BADEC28D71B4400D8CBFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		957BAE0728D71B4400D8CBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		957BAE0828D71B4400D8CBFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		957BAE0A28D71B4400D8CBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FJT2M7UJ3L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UIButtonEnlargeFrame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = meituan.UIButtonEnlargeFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		957BAE0B28D71B4400D8CBFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FJT2M7UJ3L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UIButtonEnlargeFrame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = meituan.UIButtonEnlargeFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		957BAE0D28D71B4400D8CBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FJT2M7UJ3L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = meituan.UIButtonEnlargeFrameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIButtonEnlargeFrame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UIButtonEnlargeFrame";
+			};
+			name = Debug;
+		};
+		957BAE0E28D71B4400D8CBFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FJT2M7UJ3L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = meituan.UIButtonEnlargeFrameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIButtonEnlargeFrame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UIButtonEnlargeFrame";
+			};
+			name = Release;
+		};
+		957BAE1028D71B4400D8CBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FJT2M7UJ3L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = meituan.UIButtonEnlargeFrameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UIButtonEnlargeFrame;
+			};
+			name = Debug;
+		};
+		957BAE1128D71B4400D8CBFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FJT2M7UJ3L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = meituan.UIButtonEnlargeFrameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UIButtonEnlargeFrame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		957BADD528D71B4100D8CBFF /* Build configuration list for PBXProject "UIButtonEnlargeFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957BAE0728D71B4400D8CBFF /* Debug */,
+				957BAE0828D71B4400D8CBFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		957BAE0928D71B4400D8CBFF /* Build configuration list for PBXNativeTarget "UIButtonEnlargeFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957BAE0A28D71B4400D8CBFF /* Debug */,
+				957BAE0B28D71B4400D8CBFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		957BAE0C28D71B4400D8CBFF /* Build configuration list for PBXNativeTarget "UIButtonEnlargeFrameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957BAE0D28D71B4400D8CBFF /* Debug */,
+				957BAE0E28D71B4400D8CBFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		957BAE0F28D71B4400D8CBFF /* Build configuration list for PBXNativeTarget "UIButtonEnlargeFrameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957BAE1028D71B4400D8CBFF /* Debug */,
+				957BAE1128D71B4400D8CBFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 957BADD228D71B4100D8CBFF /* Project object */;
+}
